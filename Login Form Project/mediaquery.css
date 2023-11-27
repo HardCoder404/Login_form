@@ -1,0 +1,46 @@
+@media (max-width:768px) and (min-width:320px) {
+    .nav-toggle{
+        display: block;
+     
+    }
+    .navlinks {
+        margin: 0px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.808);
+        left: -100%;
+        top: 75%;
+        width: 90%;
+        padding-block: 20px;
+        transition: 0.1s ease-in;
+        border-radius: 3px;
+
+    }
+    .nav_item .button{
+        background-color:#7d2aed ;
+    }
+    .navlinks.active{
+        left: 0;
+        width: 100%;
+    }
+    .nav{
+        overflow: initial;
+    }
+    .nav_item .nav_link{
+        margin-bottom: 25px;
+        padding: 5px;
+    }
+    .navlinks ul li{
+        flex-direction: column;
+        
+    }
+}
+@media screen and (max-width:320px) {
+    .form_container{
+        max-width: 298px;
+        width: 100%;      
+    }
+    .navlinks{
+      
+    }
+    
+}
