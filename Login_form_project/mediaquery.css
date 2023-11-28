@@ -33,18 +33,10 @@
         flex-direction: column;
         
     }
-    .form_container{
-        background-color: red;
-    }
 }
 @media screen and (max-width:320px) {
     .form_container{
         max-width: 298px;
         width: 100%;      
     }
-
-    .navlinks{
-        background-color: red;
-    }
-
 }
